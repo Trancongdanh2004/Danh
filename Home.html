@@ -1,0 +1,402 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home Page</title>
+    <style type="text/css">
+        
+        article{
+            background-color:whitesmoke;
+            width:100%;
+        }
+        h1{
+            vertical-align:top;
+            text-align:center;
+            font-family:Arial;
+            font-size:x-large;
+            font-weight:bold;
+            padding:5px;
+        }
+        table {
+            width: 100%;
+        }
+        #prod-td {
+            width: 25%;
+            background-color: white;
+            border-radius: 8px;
+            border: groove;
+            border-spacing: 50px;
+        }
+        #prod-label{
+            float:right;
+            max-width:100px;
+            max-height:35px;
+            padding:5px;
+            position:relative;
+            bottom:5px;
+        }
+        #prod-img{
+            vertical-align:bottom;
+            max-width:100%;
+            max-height:300px;
+            border:none;
+        }
+        #prod-name {
+            font-family:Arial;
+            font-size:medium;
+            color:black;
+            text-align:left;
+            font-weight:bold;
+        }
+        #newPrice{
+            font-family:'Times New Roman';
+            font-size:medium;
+            color:blue;
+            text-align:left;
+            display:inline;
+        }
+        #oldPrice, #discount{
+            font-family:'Times New Roman';
+            font-size:small;
+            color:grey;
+            display:inline;        
+        }
+        #oldPrice {
+            text-decoration: line-through;
+        }
+        .viewAll{
+            border:1px solid cornflowerblue;
+            border-radius:8px;
+            padding: 5px 50px;
+            display:inline-block;
+            line-height:20px;
+            vertical-align:middle;
+            text-align:center;
+            margin-left:42%;
+        }
+        a{
+            text-decoration:none;
+            color:cornflowerblue;
+        }
+        #prom-img {        
+            vertical-align: bottom;
+            max-width: 100%;
+            max-height: 193px;
+            border: none;
+        }
+        
+
+
+        section{
+            background-color:black;
+            width:100%;
+        }
+        #mainMenu {
+            color: white;
+        }
+
+        #header1 {
+            float: left;
+        }
+
+        #header2 {
+            float: right;
+        }
+
+        nav {
+            width: 20px;
+      
+        }
+
+        navMenu {
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="Slider">
+            <header id="header1">
+                <img style="width:120px; height:50px; top:10%; bottom:90%;" src="https://shopdunk.com/images/thumbs/0012445_Logo_ShopDunk.png" />
+            </header>
+            
+            <nav>
+                <div id="mainMenu">
+                    <ul>
+                        <il>iPhone</il>
+                        <il>iPad</il>
+                        <il>Mac</il>
+                    </ul>
+                </div>
+            </nav>
+            <header id="header2">
+                <img style="width:120px; height:50px; top:10%; bottom:90%;" src="https://shopdunk.com/images/flags/vn.png" />
+                <img style="width:120px; height:50px; top:10%; bottom:90%;" src="https://shopdunk.com/images/flags/us.png" />
+            </header>
+        </div>
+    </section>
+    <article>
+        <div class="promotion">
+            <table>
+                <tr>
+                    <td id="prom-tn">
+                        <img id="prom-img" src="https://shopdunk.com/images/uploaded/BONUSt7.png" />
+                        <img id="prom-img" src="https://shopdunk.com/images/uploaded/Bonus%20banner-26.png" />
+                        <img id="prom-img" src="https://shopdunk.com/images/uploaded/Bonus%20banner-16.png" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="product">
+            <h1>iPhone</h1>
+            <table>
+                <tr>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0007808_iphone-14-pro-max-128gb_240.png" /><br />
+                        <p id="prod-name">iPhone 14 Pro Max 128GB</p>
+                        <p id="newPrice">26.100.000</p>
+                        <p id="oldPrice">34.100.000</p>
+                        <p id="discount">-25%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0008734_iphone-14-pro-128gb_240.png" /><br />
+                        <p id="prod-name">iPhone 14 Pro Max 128GB</p>
+                        <p id="newPrice">23.890.000</p>
+                        <p id="oldPrice">30.990.000</p>
+                        <p id="discount">-22%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://shopdunk.com/images/uploaded/icon/new.png" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0020320_iphone-15-128gb_240.webp" /><br />
+                        <p id="prod-name">iPhone 14 Pro Max 128GB</p>
+                        <p id="newPrice">22.999.000</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://shopdunk.com/images/uploaded/icon/new.png" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0020311_iphone-15-pro-max-256gb_240.webp" /><br />
+                        <p id="prod-name">iPhone 14 Pro Max 128GB</p>
+                        <p id="newPrice">34.999.000</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="viewAll">
+                <a href="Category.html">Xem tất cả iPhone <i class="fa-regular fa-chevron-right"></i></a>
+            </div>
+
+            <h1>iPad</h1>
+            <table>
+                <tr>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://shopdunk.com/images/uploaded/icon/xatonkho.png" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0000594_ipad-air-4_240.png" /><br />
+                        <p id="prod-name">iPad Air 4</p>
+                        <p id="newPrice">14.990.000</p>
+                        <p id="oldPrice">19.990.000</p>
+                        <p id="discount">-25%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0006205_ipad-gen-9-102-inch-wifi-64gb_240.png" /><br />
+                        <p id="prod-name">iPad Gen 9 10.2 inch WiFi 64GB</p>
+                        <p id="newPrice">6.890.000</p>
+                        <p id="oldPrice">9.990.000</p>
+                        <p id="discount">-31%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0007071_ipad-pro-m2-11-inch-wifi-128gb_240.png" /><br />
+                        <p id="prod-name">iPad Pro M2 11 inch WiFi 128GB</p>
+                        <p id="newPrice">20.190.000</p>
+                        <p id="oldPrice">23.990.000</p>
+                        <p id="discount">-15%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://shopdunk.com/images/uploaded/icon/xatonkho.png" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0010883_ipad-pro-m1-129-inch-wifi-cellular-512gb_240.webp" /><br />
+                        <p id="prod-name">iPad Pro M1 12.9 inch WiFi Cellular 512GB</p>
+                        <p id="newPrice">35.450.000</p>
+                        <p id="oldPrice">45.990.000</p>
+                        <p id="discount">-17%</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="viewAll">
+                <a href="Category.html">Xem tất cả iPad <i class="fa-regular fa-chevron-right"></i></a>
+            </div>
+
+            <h1>Mac</h1>
+            <table>
+                <tr>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0000723_macbook-air-m1-2020-8gb-ram-256gb-ssd_240.png" /><br />
+                        <p id="prod-name">MacBook Air M1 2020 (8GB RAM) | 256GB SSD)</p>
+                        <p id="newPrice">18.690.000</p>
+                        <p id="oldPrice">28.990.000</p>
+                        <p id="discount">-35%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0008502_macbook-air-m2-2022-8gb-ram-256gb-ssd_240.png" /><br />
+                        <p id="prod-name">MacBook Air M2 2020 (8GB RAM) | 256GB SSD</p>
+                        <p id="newPrice">26.590.000</p>
+                        <p id="oldPrice">32.990.000</p>
+                        <p id="discount">-19%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0008682_macbook-pro-13-inch-m2-10-core-8gb-ram-256gb-ssd_240.png" /><br />
+                        <p id="prod-name">MacBook Pro 13 inch M2(10 core | 8GB RAM | 256GB SSD</p>
+                        <p id="newPrice">28.890.000</p>
+                        <p id="oldPrice">35.990.000</p>
+                        <p id="discount">-19%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://shopdunk.com/images/uploaded/icon/san-hang-n.png" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0011267_macbook-pro-14-inch-m2-pro-16-core-16gb-512gb_240.jpeg" /><br />
+                        <p id="prod-name">MacBook Pro 14 inch M2(16 core | 16GB RAM | 512GB SSD)</p>
+                        <p id="newPrice">46.590.000</p>
+                        <p id="oldPrice">55.000.000</p>
+                        <p id="discount">-15%</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="viewAll">
+                <a href="Category.html">Xem tất cả Mac <i class="fa-regular fa-chevron-right"></i></a>
+            </div>
+
+            <h1>Watch</h1>
+            <table>
+                <tr>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://shopdunk.com/images/uploaded/icon/xatonkho.png" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0001025_apple-watch-series-7-nhom-gps_240.png" /><br />
+                        <p id="prod-name">Apple Watch Series 7 Nhôm GPS</p>
+                        <p id="newPrice">7.790.000</p>
+                        <p id="oldPrice">11.990.000</p>
+                        <p id="discount">-35%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0000896_apple-watch-se-nhom-gps_240.png" /><br />
+                        <p id="prod-name">Apple Watch SE Nhôm 2022 GPS</p>
+                        <p id="newPrice">5.890.000</p>
+                        <p id="oldPrice">8.990.000</p>
+                        <p id="discount">-34%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0000897_apple-watch-series-3-nhom_240.png" /><br />
+                        <p id="prod-name">Apple Watch Series 3 Nhôm</p>
+                        <p id="newPrice">3.990.000</p>
+                        <p id="oldPrice">5.990.000</p>
+                        <p id="discount">-33%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0008913_apple-watch-ultra-lte-49mm-alpine-loop-size-s_240.png" /><br />
+                        <p id="prod-name">Apple Watch Ultra LTE 49mm Alpine Loop size S</p>
+                        <p id="newPrice">19.990.000</p>
+                        <p id="oldPrice">23.990.000</p>
+                        <p id="discount">-16%</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="viewAll">
+                <a href="Category.html">Xem tất cả Watch <i class="fa-regular fa-chevron-right"></i></a>
+            </div>
+
+            <h1>Âm thanh</h1>
+            <table>
+                <tr>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0000211_airpods-pro-2_240.png" /><br />
+                        <p id="prod-name">AirPods Pro 2</p>
+                        <p id="newPrice">5.790.000</p>
+                        <p id="oldPrice">6.990.000</p>
+                        <p id="discount">-14%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0012005_airpods-max_240.webp" /><br />
+                        <p id="prod-name">AirPod Max</p>
+                        <p id="newPrice">12.590.000</p>
+                        <p id="oldPrice">13.990.000</p>
+                        <p id="discount">-10%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0006057_tai-nghe-apple-airpods-3-sac-co-day-lightning_240.jpeg" /><br />
+                        <p id="prod-name">Tai nghe Apple AirPods 3 sạc có dây Lightning</p>
+                        <p id="newPrice">3.990.000</p>
+                        <p id="oldPrice">5.490.000</p>
+                        <p id="discount">-27%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0015612_airpods-2_240.png" /><br />
+                        <p id="prod-name">AirPods 2</p>
+                        <p id="newPrice">2.590.000</p>
+                        <p id="oldPrice">4.390.000</p>
+                        <p id="discount">-41%</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="viewAll">
+                <a href="Category.html">Xem tất cả Âm thanh <i class="fa-regular fa-chevron-right"></i></a>
+            </div>
+
+            <h1>Phụ kiện</h1>
+            <table>
+                <tr>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0001395_sac-20w-usb-c-power-adapter_240.png" /><br />
+                        <p id="prod-name">Sạc 20W USB-C Power Adapter</p>
+                        <p id="newPrice">510.000</p>
+                        <p id="oldPrice">690.000</p>
+                        <p id="discount">-26%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0001421_magic-mouse-2_240.jpeg" /><br />
+                        <p id="prod-name">Magic Mouse 2</p>
+                        <p id="newPrice">1.400.000</p>
+                        <p id="oldPrice">2.990.000</p>
+                        <p id="discount">-53%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Empty.png?20091205084734" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0001742_iphone-14-pro-max-leather-case-with-magsafe_240.jpeg" /><br />
+                        <p id="prod-name">iPhone 14 Pro Max Leather Case with MagSafe</p>
+                        <p id="newPrice">790.000</p>
+                        <p id="oldPrice">1.790.000</p>
+                        <p id="discount">-55%</p>
+                    </td>
+                    <td id="prod-td">
+                        <img id="prod-label" src="https://shopdunk.com/images/uploaded/icon/new.png" /><br />
+                        <img id="prod-img" src="https://shopdunk.com/images/thumbs/0010774_pencil-1-2022_240.png" /><br />
+                        <p id="prod-name">Pencil 1 (2022)</p>
+                        <p id="newPrice">2.490.000</p>
+                        <p id="oldPrice">2.990.000</p>
+                        <p id="discount">-16%</p>
+                    </td>
+                </tr>
+            </table>
+            <div class="viewAll">
+                <a href="Category.html">Xem tất cả Phụ kiện <b>&gt;</b></a>
+            </div>
+        </div>
+
+        <div class="service">
+            
+        </div>
+        <div class="news">
+
+        </div>
+    </article>
+</body>
+</html>
